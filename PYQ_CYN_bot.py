@@ -1,4 +1,5 @@
 from bot_token import file_bot_token
+#create your bot token
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import (
     ApplicationBuilder,
@@ -14,7 +15,7 @@ from telegram.ext import (
 # =========================
 
 BOT_TOKEN = file_bot_token()
-ADMIN_PASSWORD = "PASSWORD#cynogen"
+ADMIN_PASSWORD = "create your password"
 
 # Chat IDs where admin mode is enabled
 ADMIN_SESSIONS = set()
@@ -25,34 +26,35 @@ ADMIN_SESSIONS = set()
 
 NEET_PAPERS = {
     "2017": {
-        "Set A": "BQACAgUAAxkBAAMUaVJvuxWjlBkmogHYnucaxIRqkTUAAmcfAAKcGplWPwMrA8_jn8E2BA",
-        "Set B": "BQACAgUAAxkBAAMVaVJvu5DsE5a1MGeLix-vNnl23j4AAmgfAAKcGplWbK0Z1moyQh42BA",
-        "Set C": "BQACAgUAAxkBAAMWaVJvu6PJdzrFU6v3il6aT7fBfl0AAmkfAAKcGplW-uv5yjtxuto2BA",
-        "Set D": "BQACAgUAAxkBAAMXaVJvuxZLNsmbrqg_kCiVnOkM09kAAmofAAKcGplWENjp7IL6YdM2BA"
+        "Set A": "BQACAgUAAxkBAAMUaVJvuxWjlBkmogHYnucaxIRqkTUAAmcfAAKcGplWMrA8_jn8E2BA",
+        "Set B": "BQACAgUAAxkBAAMVaVJvu5DsE5a1MGeLix-vNnl23j4AAmgfAAKcGpbK0Z1moyQh42BA",
+        "Set C": "BQACAgUAAxkBAAMWaVJvu6PJdzrFU6v3il6aT7fBfl0AAmkfAAKclW-uv5yjtxuto2BA",
+        "Set D": "BQACAgUAAxkBAAMXaVJvuxZLNsmbrqg_kCiVnOkM09kAAmofAAGplWENjp7IL6YdM2BA"
+        #replace with your file ids
     },
     "2018": {
-        "Paper": "BQACAgUAAxkBAAMMaVJvAzqt5Y6h9--cci6K2Iw9QfEAAmAfAAKcGplWLt2GU2u1THE2BA"
+        "Paper": "BQACAgUAAxkBAAMMaVJvAzqt5Y6h9--cci6K2Iw9QfEAAmAfKcGplWLt2GU2u1THE2BA"
     },
     "2019": {
-        "Paper": "BQACAgUAAxkBAAMNaVJvA51Y0X0zYyxNVFJVvyTq8EgAAmMfAAKcGplWMsjaWj5yC_o2BA"
+        "Paper": "BQACAgUAAxkBAAMNaVJvA51Y0X0zYyxNVFJVvyTq8EAmMfAAKcGplWMsjaWj5yC_o2BA"
     },
     "2020": {
-        "Paper": "BQACAgUAAxkBAAMOaVJvA9E9frmzGrvLvuEgFzzvrWcAAmQfAAKcGplWfW3InqADjx02BA"
+        "Paper": "BQACAgUAAxkBAAMOaVJvA9E9frmzGrvLvuEgFzzWcAAmQfAAKcGplWfW3InqADjx02BA"
     },
     "2021": {
-        "Paper": "BQACAgUAAxkBAAMSaVJvGFInnz8ckV4vMLCTMEGdqVYAAmUfAAKcGplWwYRT9I926_w2BA"
+        "Paper": "BQACAgUAAxkBAAMSaVJvGFInnz8ckV4vMLCTMdqVYAAmUfAAKcGplWwYRT9I926_w2BA"
     },
     "2022": {
-        "Paper": "BQACAgUAAxkBAAMKaVJuZ20Y20pNECbo8dGz2XMuI3UAAlYfAAKcGplWzgYkSf2L7cM2BA"
+        "Paper": "BQACAgUAAxkBAAMKaVJuZ20Y20pNECbo8dGXMuI3UAAlYfAAKcGplWzgYkSf2L7cM2BA"
     },
     "2023": {
-        "Paper": "BQACAgUAAxkBAAMIaVJuRTRQmKMVl5Nbdihj6aU9XK4AAlUfAAKcGplWfeqCmq8Io-w2BA"
+        "Paper": "BQACAgUAAxkBAAMIaVJuRTRQmKMVl5Nbdj6aU9XK4AAlUfAAKcGplWfeqCmq8Io-w2BA"
     },
     "2024": {
-        "Paper": "BQACAgUAAxkBAAMGaVJsl3c38KzGlWSeIihS9RHt03gAAkwfAAKcGplWjcXOF1lMKBA2BA"
+        "Paper": "BQACAgUAAxkBAAMGaVJsl3c38KzGlWSihS9RHt03gAAkwfAAKcGplWjcXOF1lMKBA2BA"
     },
     "2025": {
-        "Paper": "BQACAgUAAxkBAAMEaVJsNCdCETy0CXcZVfC5i-ZQiyUAAksfAAKcGplWctd1zUIj9Yo2BA"
+        "Paper": "BQACAgUAAxkBAAMEaVJsNCdCETy0CXcZC5i-ZQiyUAAksfAAKcGplWctd1zUIj9Yo2BA"
     }
 }
 
